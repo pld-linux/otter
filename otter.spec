@@ -3,9 +3,9 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-
-
+#
 Summary:	Theorem Prover
+Summary(pl):	Narzêdzie do dowodzenia twierdzeñ
 Name:		otter
 Version:	3.3f
 Release:	1
@@ -13,7 +13,7 @@ License:	Public Domain (see Legal)
 Group:		Applications/Science
 Source0:	http://www-unix.mcs.anl.gov/AR/otter/dist33/%{name}-%{version}.tar.gz
 # Source0-md5:	795711b307cc1316e08d3d4f46c998c9
-URL:		http://www-unix.mcs.anl.gov/AR/otter/dist33
+URL:		http://www-unix.mcs.anl.gov/AR/otter/dist33/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -35,31 +35,37 @@ lattice theory, and algebraic geometry.
 
 %package doc
 Summary:	Otter and Mace documentation
+Summary(pl):	Dokumentacja do programów Otter i Mace
 Group:		Documentation
 
 %description doc
 PDF documentation for Otter and Mace theorem proving programs.
 
+%description doc -l pl
+Dokumentacja w formacie PDF do programów Otter i Mace s³u¿±cych do
+dowodzenia twierdzeñ.
+
 %package examples
 Summary:	Otter and Mace examples
+Summary(pl):	Przyk³ady do programów Otter i Mace
 Group:		Documentation
 
 %description examples
 Example proofs for Otter and Mace theorem proving programs.
 
+%description examples -l pl
+Przyk³adowe dowody do programów Otter i Mace s³u¿±cych do
+dowodzenia twierdzeñ.
 
 %prep
 %setup -q
 
 %build
-cd source
-%{__make} all \
+%{__make} -C source all \
 	CC="%{__cc}"
 
-cd ../mace2
-%{__make} all \
+%{__make} -C mace2 all \
 	CC="%{__cc}"
-cd ..
 
 %if %{with tests}
 %{__make} test-mace
@@ -69,10 +75,10 @@ cd ..
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT{%{_bindir},%{_examplesdir}/%{name}}
+
 install bin-Linux/* $RPM_BUILD_ROOT%{_bindir}
 cp -rf examples $RPM_BUILD_ROOT%{_examplesdir}/%{name}
 cp -rf examples-mace2 $RPM_BUILD_ROOT%{_examplesdir}/%{name}
-
 
 %clean
 rm -rf $RPM_BUILD_ROOT
