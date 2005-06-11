@@ -33,6 +33,25 @@ answer many open questions in the areas of finite semigroups, ternary
 Boolean algebra, logic calculi, combinatory logic, group theory,
 lattice theory, and algebraic geometry.
 
+%description -l pl
+Otter jest zaprojektowany do dowodzenia twierdzeñ wyra¿onych w logice
+pierwszego rzêdu z równo¶ciami. Regu³y wnioskowania Ottera s± oparte
+na rozwi±zywaniu i paramodulacji; zawieraj± u³atwienia do
+przepisywania warunków, porz±dkowania warunków, dope³nienia
+Knutha-Bendiksa, wa¿enia oraz strategie kierunkowania i ograniczania
+wyszukiwania dowodów. Otter mo¿e byæ tak¿e u¿ywany jako kalkulator
+symboliczny i posiada wbudowany system programowania równañ. Otter to
+system dedokcji Argonne National Laboratory czwartej generacji,
+którego przodkowie (pocz±wszy od wczesnych lat 1960-tych) obejmowa³y
+seriê TP, NIUTP, AURA i ITP.
+
+Aktualnie g³ówna aplikacja Ottera to praca badawcza dotycz±ca
+abstrakcyjnej algebry i logiki formalnej. Otter i jego poprzedniki
+by³y u¿ywane do odpowiadania na wiele pytañ w zakresie pó³grup
+skoñczonych, trójkowej algebry boolowskiej, rachunków logicznych,
+logiki kombinatorycznej, teorii grup, teorii krat oraz geometrii
+algebraicznej.
+
 %package doc
 Summary:	Otter and Mace documentation
 Summary(pl):	Dokumentacja do programów Otter i Mace
