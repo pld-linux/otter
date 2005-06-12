@@ -41,7 +41,7 @@ przepisywania warunków, porz±dkowania warunków, dope³nienia
 Knutha-Bendiksa, wa¿enia oraz strategie kierunkowania i ograniczania
 wyszukiwania dowodów. Otter mo¿e byæ tak¿e u¿ywany jako kalkulator
 symboliczny i posiada wbudowany system programowania równañ. Otter to
-system dedokcji Argonne National Laboratory czwartej generacji,
+system dedukcji Argonne National Laboratory czwartej generacji,
 którego przodkowie (pocz±wszy od wczesnych lat 1960-tych) obejmowa³y
 seriê TP, NIUTP, AURA i ITP.
 
