@@ -5,7 +5,7 @@
 %bcond_with	tests		# build with tests
 #
 Summary:	Theorem Prover
-Summary(pl):	NarzÍdzie do dowodzenia twierdzeÒ
+Summary(pl.UTF-8):   Narzƒôdzie do dowodzenia twierdze≈Ñ
 Name:		otter
 Version:	3.3f
 Release:	1
@@ -33,48 +33,48 @@ answer many open questions in the areas of finite semigroups, ternary
 Boolean algebra, logic calculi, combinatory logic, group theory,
 lattice theory, and algebraic geometry.
 
-%description -l pl
-Otter jest zaprojektowany do dowodzenia twierdzeÒ wyraøonych w logice
-pierwszego rzÍdu z rÛwno∂ciami. Regu≥y wnioskowania Ottera s± oparte
-na rozwi±zywaniu i paramodulacji; zawieraj± u≥atwienia do
-przepisywania warunkÛw, porz±dkowania warunkÛw, dope≥nienia
-Knutha-Bendiksa, waøenia oraz strategie kierunkowania i ograniczania
-wyszukiwania dowodÛw. Otter moøe byÊ takøe uøywany jako kalkulator
-symboliczny i posiada wbudowany system programowania rÛwnaÒ. Otter to
+%description -l pl.UTF-8
+Otter jest zaprojektowany do dowodzenia twierdze≈Ñ wyra≈ºonych w logice
+pierwszego rzƒôdu z r√≥wno≈õciami. Regu≈Çy wnioskowania Ottera sƒÖ oparte
+na rozwiƒÖzywaniu i paramodulacji; zawierajƒÖ u≈Çatwienia do
+przepisywania warunk√≥w, porzƒÖdkowania warunk√≥w, dope≈Çnienia
+Knutha-Bendiksa, wa≈ºenia oraz strategie kierunkowania i ograniczania
+wyszukiwania dowod√≥w. Otter mo≈ºe byƒá tak≈ºe u≈ºywany jako kalkulator
+symboliczny i posiada wbudowany system programowania r√≥wna≈Ñ. Otter to
 system dedukcji Argonne National Laboratory czwartej generacji,
-ktÛrego przodkowie (pocz±wszy od wczesnych lat 1960-tych) obejmowa≥y
-seriÍ TP, NIUTP, AURA i ITP.
+kt√≥rego przodkowie (poczƒÖwszy od wczesnych lat 1960-tych) obejmowa≈Çy
+seriƒô TP, NIUTP, AURA i ITP.
 
-Aktualnie g≥Ûwna aplikacja Ottera to praca badawcza dotycz±ca
+Aktualnie g≈Ç√≥wna aplikacja Ottera to praca badawcza dotyczƒÖca
 abstrakcyjnej algebry i logiki formalnej. Otter i jego poprzedniki
-by≥y uøywane do odpowiadania na wiele pytaÒ w zakresie pÛ≥grup
-skoÒczonych, trÛjkowej algebry boolowskiej, rachunkÛw logicznych,
+by≈Çy u≈ºywane do odpowiadania na wiele pyta≈Ñ w zakresie p√≥≈Çgrup
+sko≈Ñczonych, tr√≥jkowej algebry boolowskiej, rachunk√≥w logicznych,
 logiki kombinatorycznej, teorii grup, teorii krat oraz geometrii
 algebraicznej.
 
 %package doc
 Summary:	Otter and Mace documentation
-Summary(pl):	Dokumentacja do programÛw Otter i Mace
+Summary(pl.UTF-8):   Dokumentacja do program√≥w Otter i Mace
 Group:		Documentation
 
 %description doc
 PDF documentation for Otter and Mace theorem proving programs.
 
-%description doc -l pl
-Dokumentacja w formacie PDF do programÛw Otter i Mace s≥uø±cych do
-dowodzenia twierdzeÒ.
+%description doc -l pl.UTF-8
+Dokumentacja w formacie PDF do program√≥w Otter i Mace s≈Çu≈ºƒÖcych do
+dowodzenia twierdze≈Ñ.
 
 %package examples
 Summary:	Otter and Mace examples
-Summary(pl):	Przyk≥ady do programÛw Otter i Mace
+Summary(pl.UTF-8):   Przyk≈Çady do program√≥w Otter i Mace
 Group:		Documentation
 
 %description examples
 Example proofs for Otter and Mace theorem proving programs.
 
-%description examples -l pl
-Przyk≥adowe dowody do programÛw Otter i Mace s≥uø±cych do
-dowodzenia twierdzeÒ.
+%description examples -l pl.UTF-8
+Przyk≈Çadowe dowody do program√≥w Otter i Mace s≈Çu≈ºƒÖcych do
+dowodzenia twierdze≈Ñ.
 
 %prep
 %setup -q
