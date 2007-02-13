@@ -5,7 +5,7 @@
 %bcond_with	tests		# build with tests
 #
 Summary:	Theorem Prover
-Summary(pl.UTF-8):   Narzędzie do dowodzenia twierdzeń
+Summary(pl.UTF-8):	Narzędzie do dowodzenia twierdzeń
 Name:		otter
 Version:	3.3f
 Release:	1
@@ -54,7 +54,7 @@ algebraicznej.
 
 %package doc
 Summary:	Otter and Mace documentation
-Summary(pl.UTF-8):   Dokumentacja do programów Otter i Mace
+Summary(pl.UTF-8):	Dokumentacja do programów Otter i Mace
 Group:		Documentation
 
 %description doc
@@ -66,7 +66,7 @@ dowodzenia twierdzeń.
 
 %package examples
 Summary:	Otter and Mace examples
-Summary(pl.UTF-8):   Przykłady do programów Otter i Mace
+Summary(pl.UTF-8):	Przykłady do programów Otter i Mace
 Group:		Documentation
 
 %description examples
